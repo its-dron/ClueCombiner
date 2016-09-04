@@ -16,7 +16,7 @@ r = {t: [] for t in targets}
 N = len(numbers)
 for i in range(N):
     n1 = numbers[i]
-    for j in range(i,N):
+    for j in range(i+1,N):
         n2 = numbers[j]
         s = n1+n2
         if s in r:
